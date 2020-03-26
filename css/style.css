@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #aa7ddb;
+}
+
+.wraper {
+    position: relative;
+    max-width: 400px;
+    min-height: 500px;
+    margin: 200px auto;
+    padding: 0;
+    background-image: url(../images/background.jpg);
+}
+
+.gradient {
+    height: 500px;
+    background: linear-gradient(56deg, rgba(49, 35, 174, 0.808) 0%, rgba(201, 109, 215, 0.849) 100%);
+}
+
+.form-block {
+    max-width: 260px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+}
+
+.links {
+    display: flex;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 25px 0 0;
+    padding: 2px 2px 2px 0;
+    transition-duration: 0.5s;
+    border-bottom: 2px solid transparent;
+}
+
+.links {
+    margin-bottom: 40px;
+}
+
+.links a:hover {
+    border-bottom: 2px solid #e66a64;
+}
+
+.registration label {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.registration input {
+    margin-bottom: 15px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #d0d1dc9f;
+    color: white;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.registration input:focus {
+    border: 2px solid white;
+}
+
+.second-form {
+    opacity: 0.4;
+}
+
+.second-form:hover {
+    opacity: 1;
+}
+
+.keep {
+    height: 52px;
+    display: flex;
+}
+
+.keep label {
+    padding: 14px 0 0 5px;
+    font-size: 15px;
+}
+
+button {
+    height: 42px;
+    width: 260px;
+    background-color: #23ae92;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: #0f8069;
+}
+
+.user-help a {
+    color: #bfc0d0;
+    text-decoration: none;
+    font-size: 15px;
+    border-bottom: 1px solid #bfc0d0;
+}
+
+.user-help a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.user-help {
+    margin: 35px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
